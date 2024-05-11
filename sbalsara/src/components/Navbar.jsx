@@ -22,7 +22,10 @@ const Navbar = () => {
             }}
         >
          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[18px] font-bold cursor-pointer">Sohum Balsara <span className="sm: blockhidden">| Computer Science Student at Ithaca College</span></p>
+            <p className="text-white text-[18px] font-bold cursor-pointer">
+                Sohum Balsara&nbsp;
+                <span className="sm: blockhidden">| Computer Science Student at Ithaca College</span>
+            </p>
         </Link>
         <ul className="list-nonehidden sm: flex flex-row gap-10">
             {navLinks.map((Link, index) => (
