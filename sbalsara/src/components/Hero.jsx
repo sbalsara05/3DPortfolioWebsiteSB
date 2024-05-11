@@ -19,12 +19,11 @@ const Hero = () => {
                         className="sm:block hidden"/>
                         College studying Computer Science and Economics. My experiences include being a research intern
                         for Professor Douglas Turnbull, and Professor John Barr. Additionally, I am honored to have
-                        earned a spot on the Dean's List for the fall semester
-
+                        earned a spot on the Dean's List for the fall semester.
                         I look forward to meeting and coordinating with all of you!</p>
                 </div>
-                <ComputersCanvas/>
             </div>
+            <ComputersCanvas/>
         </section>
     )
 }
