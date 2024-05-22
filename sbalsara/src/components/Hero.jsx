@@ -35,8 +35,7 @@ const Hero = () => {
                     repeat: Infinity,
                     repeatType: "spring",
                   }}
-                  className='w-3 h-3 rounded-full bg-secondary mb-1'
-                />
+                  className='w-3 h-3 rounded-full bg-secondary mb-1'/>
               </div>
             </a>
           </div>
