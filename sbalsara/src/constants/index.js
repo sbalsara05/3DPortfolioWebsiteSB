@@ -118,7 +118,7 @@ const experiences = [
         company_name: "Ithaca College",
         icon: IClogo,
         iconBg: "#F8F8F8",
-        date: "November 2023 - December 2023",
+        date: "Nov 2023 - Dec 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Implemented new features and functionalities to improve user experience.",
