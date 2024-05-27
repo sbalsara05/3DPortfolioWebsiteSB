@@ -23,7 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
-    IClogo
+    IClogo,
+    F1Logo,
+    f1logonew,
+    Photography
+
 } from "../assets";
 
 export const navLinks = [
@@ -189,46 +193,46 @@ const testimonials = [
 ];
 const projects = [
     {
-        name: "Car Rent",
+        name: "Formula 1 CLI",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Developed a CLI Application for showing various pieces of Formula one data for my COMP-172 Class at Ithaca College.",
         tags: [
             {
-                name: "react",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "ErgastAPI",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "FastF1API",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: f1logonew, // F1 Logo
+        source_code_link: "https://github.com/IC-COMP172-2024-SP/172-project02-oopforanapi-sbalsara05",
     },
     {
-        name: "Job IT",
+        name: "Photography Website",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Developed a Personal Photography Portfolio with 20 pictures,  using JavaScript to filter them",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "javascript",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: Photography,
+        source_code_link: "https://github.com/sbalsara05/PhotographyWebsiteSB",
     },
     {
         name: "Trip Guide",

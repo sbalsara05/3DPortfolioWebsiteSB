@@ -25,8 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import IClogo from "./company/IClogo.svg";
 
+import IClogo from "./company/IClogo.svg";
+import F1Logo from "./F1Logo.png";
+import f1logonew from "./f1logonew.jpeg";
+import Photography from "./PhotographyWebsite.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -62,4 +65,7 @@ export {
   jobit,
   tripguide,
     IClogo,
+    F1Logo,
+    f1logonew,
+    Photography
 };
