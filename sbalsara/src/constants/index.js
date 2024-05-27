@@ -168,27 +168,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Sohum can learn things very quickly, and he picked up our codebase surprisingly quickly and was always itching to learn more. He came up to me asking to work my app, Localify, and was extremely grateful and happy for the opportunity, and it showed in his work",
+        name: "Dr. Douglas Turnbull",
+        designation: "Professor",
+        company: "Ithaca College",
+        image: "https://www.ithaca.edu/sites/default/files/styles/max_325x325/public/2023-10/Headshot_Square.png.webp?itok=hEs-JwIX"
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Sohum had a great lasting first impression, as well as an eye for research projects and ideas. Although he was the youngest out of my student-researchers, he had the maturity to keep up.",
+        name: "Dr. John Barr",
+        designation: "Professor",
+        company: "Ithaca College",
+        image: "https://www.ithaca.edu/sites/default/files/styles/max_325x325/public/2021-01/barr_320_400.jpg.webp?itok=Dig094i2"
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Sohum is a hard worker that gets the job done, and on time. He's punctual and takes great care for anything he works on. He won't let anything go out unless it is up to standard.",
+        name: "Daryl Capuano",
+        designation: "CEO",
+        company: "The Learning Consultants",
+        image: "https://www.careercounselingconnecticut.com/wp-content/uploads/2016/04/daryl.jpg",
     },
 ];
 const projects = [
