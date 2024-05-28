@@ -7,7 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
+// gLgeEXSlaKGuOFtJW
+// template_zueryiu Change this if needed to the GMAIL one
+// service_ciffu0s
 
 
 const Contact = () => {
@@ -19,9 +21,17 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {name, value} = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm ({...form, [name]: value});
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true)
+    emailjs.send("service_ciffu0s", "template_zueryiu", "gLgeEXSlaKGuOFtJW")
+  }
   return (
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden ">
         <motion.div
@@ -51,8 +61,8 @@ const Contact = () => {
               <span className="text-white font-medium mb-4">Your Email</span>
               <input
                   type="email"
-                  name="name"
-                  value={form.name}
+                  name="email"
+                  value={form.email}
                   onChange={handleChange}
                   placeholder="What's your email?"
                   className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
