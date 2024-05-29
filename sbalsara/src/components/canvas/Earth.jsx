@@ -9,7 +9,7 @@ const Earth = () => {
   return (
     <primitive
         object={earth.scene}
-        scale={3}
+        scale={2.5}
         position-y = {0}
         rotation-y={0}
 
@@ -34,8 +34,6 @@ const EarthCanvas = () => {
           <OrbitControls
               autoRotate={true}
               enableZoom={false}
-              maxDistance={10}
-              minDistance={5}
               maxPolarAngle={Math.PI / 2}
               minPolarAngle={Math.PI / 2}
 
