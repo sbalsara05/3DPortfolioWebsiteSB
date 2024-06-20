@@ -26,7 +26,7 @@ import {
     IClogo,
     F1Logo,
     f1logonew,
-    Photography
+    Photography, telemetry
 
 } from "../assets";
 
@@ -42,7 +42,7 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
-    },
+    }
 ];
 const services = [
     {
@@ -202,11 +202,11 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "ErgastAPI",
+                name: "ergastapi",
                 color: "green-text-gradient",
             },
             {
-                name: "FastF1API",
+                name: "fastf1api",
                 color: "pink-text-gradient",
             },
         ],
@@ -235,25 +235,25 @@ const projects = [
         source_code_link: "https://github.com/sbalsara05/PhotographyWebsiteSB",
     },
     {
-        name: "Trip Guide",
+        name: "F1 Telemetry Graphs",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This program uses the FastF1 python library to plot the telemetry data for fastest laps in the race, qualifying or any of the practice sessions. This can go as far back as the 2018 F1 season.",
         tags: [
             {
-                name: "nextjs",
+                name: "python",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "matplotlib",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "flask",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: telemetry,
+        source_code_link: "https://github.com/sbalsara05/PythonF1Project",
     },
 ];
 export {services, technologies, experiences, testimonials, projects};

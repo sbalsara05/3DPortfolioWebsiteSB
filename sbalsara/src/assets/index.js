@@ -33,6 +33,7 @@ import Photography from "./PhotographyWebsite.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import telemetry from "./telemetry.png";
 
 
 export {
@@ -67,5 +68,6 @@ export {
     IClogo,
     F1Logo,
     f1logonew,
-    Photography
+    Photography,
+    telemetry
 };
