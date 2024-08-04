@@ -50,8 +50,8 @@ const About = () => {
                 variants={fadeIn('', "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                My name is Sohum Balsara, and I am currently a student at Ithaca College studying Computer Science and
-                Economics. My experiences include being a research intern for Professor Douglas Turnbull, and Professor
+                My name is Sohum Balsara, and I am currently a student at Northeastern University studying Computer Science and
+                Finance with a concentration in Fintech. My experiences include being a research intern for Professor Douglas Turnbull, and Professor
                 John Barr. Additionally, I am honored to have earned a spot on the Dean's List for the fall semester.
 
                 I look forward to meeting and coordinating with all of you!
