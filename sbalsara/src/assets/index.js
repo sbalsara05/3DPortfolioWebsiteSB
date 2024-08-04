@@ -34,6 +34,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import telemetry from "./telemetry.png";
+import LAFrontPage from "./company/LAFrontPage.png"
 
 
 export {
@@ -69,5 +70,5 @@ export {
     F1Logo,
     f1logonew,
     Photography,
-    telemetry
+    telemetry, LAFrontPage
 };

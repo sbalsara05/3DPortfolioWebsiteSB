@@ -26,7 +26,10 @@ import {
     IClogo,
     F1Logo,
     f1logonew,
-    Photography, telemetry
+    Photography, telemetry,
+    LAFrontPage
+
+
 
 } from "../assets";
 
@@ -255,5 +258,27 @@ const projects = [
         image: telemetry,
         source_code_link: "https://github.com/sbalsara05/PythonF1Project",
     },
+    {
+        name: "Luke Adams Art Portfolio",
+        description:
+            "This freelance project showcases the artistic works of Luke Adams. Under his brand, Just a Local Adolescent, Luke aims to establish himself in the art world, bringing his passion for photography, designs, patterns, and portraits to life.",
+        tags: [
+            {
+                name: "css",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "html",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: LAFrontPage,
+        source_code_link: "https://github.com/sbalsara05/LukeAdamsPortfolio",
+    },
+
 ];
 export {services, technologies, experiences, testimonials, projects};
