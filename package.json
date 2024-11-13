@@ -1,10 +1,10 @@
 {
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "node-loader": "^2.0.0",
     "nodemon": "^3.1.0",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.10"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -16,6 +16,7 @@
     "fsevents": "^2.3.3",
     "loading": "^1.13.3",
     "maath": "^0.10.7",
+    "postcss-loader": "^8.1.1",
     "react-router-dom": "^6.22.3",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
