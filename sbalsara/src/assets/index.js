@@ -35,7 +35,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import telemetry from "./telemetry.png";
 import LAFrontPage from "./company/LAFrontPage.png"
-
+import code from "./icons/code.svg";
+import mic_vocal from "./icons/mic_vocal.svg";
+import school from "./icons/school.svg";
+import graduation_cap from "./icons/graduation_cap.svg";
 
 export {
   logo,
@@ -70,5 +73,5 @@ export {
     F1Logo,
     f1logonew,
     Photography,
-    telemetry, LAFrontPage
+    telemetry, LAFrontPage, code, mic_vocal, school, graduation_cap
 };

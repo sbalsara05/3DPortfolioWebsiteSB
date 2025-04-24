@@ -27,8 +27,10 @@ import {
     F1Logo,
     f1logonew,
     Photography, telemetry,
-    LAFrontPage
-
+    LAFrontPage,
+    code,
+    mic_vocal,
+    school, graduation_cap
 
 
 } from "../assets";
@@ -45,24 +47,28 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
-    }
+    },
+    // {
+    //     id: "resume",
+    //     title: "Resume"
+    // }
 ];
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
+        title: "Entrepreneur",
+        icon: mic_vocal,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
+        title: "Software Engineer",
+        icon: code,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        title: "Student",
+        icon: graduation_cap,
     },
     {
         title: "Tutor",
-        icon: creator,
+        icon: school,
     },
 ];
 const technologies = [

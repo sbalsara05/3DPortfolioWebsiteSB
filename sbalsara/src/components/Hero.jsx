@@ -18,7 +18,7 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am currently a student at Northeastern <br
                         className="sm:block hidden"/>
                         University studying Computer Science and Finance with a concentration in Fintech.
-                        I look forward to meeting and coordinating with all of you!</p>
+                        </p>
                 </div>
             </div>
             <ComputersCanvas/>
