@@ -41,8 +41,12 @@ import school from "./icons/school.svg";
 import graduation_cap from "./icons/graduation_cap.svg";
 import CommerceHive from "./icons/CommerceHiveLogo.jpg";
 import CommerceHiveLogo2 from "./icons/CommerceHiveLogo2.svg";
+import CommerceHiveLogo3 from "./icons/CommerceHiveLogo3.svg";
 import BurrowBunnyPicLogo from "./icons/BurrowBunnyPicLogo.png";
-import RealityAI from "./icons/RealityAIpng.jpeg";
+import RealityAI from "./icons/RealityAIpng.png";
+import ClaimCrisis from "./ClaimCrisis.png";
+import TradingBot from "./TradingBot.png";
+import ISStracker from "./ISStracker.png";
 
 export {
   logo,
@@ -87,4 +91,8 @@ export {
   CommerceHive,
   BurrowBunnyPicLogo,
   CommerceHiveLogo2,
+  CommerceHiveLogo3,
+  ClaimCrisis,
+  ISStracker,
+  TradingBot
 };

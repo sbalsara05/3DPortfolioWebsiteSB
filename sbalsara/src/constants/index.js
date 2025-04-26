@@ -30,7 +30,8 @@ import {
     LAFrontPage,
     code,
     mic_vocal,
-    school, graduation_cap, RealityAI, BurrowBunnyPicLogo, CommerceHive, CommerceHiveLogo2
+    school, graduation_cap, RealityAI, BurrowBunnyPicLogo, CommerceHive, CommerceHiveLogo2, CommerceHiveLogo3,
+    ISStracker, TradingBot, ClaimCrisis
 
 
 } from "../assets";
@@ -84,10 +85,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
     {
         name: "React JS",
         icon: reactjs,
@@ -104,10 +105,10 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
     {
         name: "Three JS",
         icon: threejs,
@@ -129,7 +130,7 @@ const experiences = [
     {
         title: "Director of Engineering",
         company_name: "Commerce Hive LLC",
-        icon: CommerceHiveLogo2,
+        icon: CommerceHiveLogo3,
         iconBg: "#F8F8F8",
         date: "March 2025 - Present",
         points: [
@@ -210,89 +211,91 @@ const testimonials = [
 ];
 const projects = [
     {
-        name: "Formula 1 CLI",
+        name: "Claim Crisis",
         description:
-            "Developed a CLI Application for showing various pieces of Formula one data for my COMP-172 Class at Ithaca College.",
+            "Created during the Finhacks hackaton at Northeastern aimed to help people recall lost/damaged property during" +
+            "the California Wildfires. Scope was then expanded to all types of natural disasters.",
         tags: [
             {
-                name: "python",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "ergastapi",
+                name: "Next.js",
                 color: "green-text-gradient",
             },
             {
-                name: "fastf1api",
+                name: "Pytorch",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: ClaimCrisis,
+        source_code_link: "https://www.figma.com/design/rvVJYfUxOeyXGFAWYTGf0I/Finnovate-Project?node-id=140-567&t=xFoFv1iZG3bjxet7-0",
+    },
+    {
+        name: "Trading Bot",
+        description:
+            "Created a trading bot to help make market and limit buys in the stock market using the Alpaca API. Created a" +
+            "machine learning model that checks the sentiment of the market before executing a trade.",
+        tags: [
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Pytorch",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Lumibot",
                 color: "pink-text-gradient",
             },
         ],
-        image: f1logonew, // F1 Logo
-        source_code_link: "https://github.com/IC-COMP172-2024-SP/172-project02-oopforanapi-sbalsara05",
+        image: TradingBot,
+        source_code_link: "https://github.com/sbalsara05/TradingBot",
     },
     {
-        name: "Photography Website",
+        name: "Track the ISS",
         description:
-            "Developed a Personal Photography Portfolio with 20 pictures,  using JavaScript to filter them",
+            "Used NASA API's and created a React front-end to show the International Space Station's relative location on a world map",
         tags: [
             {
-                name: "html",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "css",
+                name: "Next.js",
                 color: "green-text-gradient",
             },
             {
-                name: "javascript",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: Photography,
-        source_code_link: "https://github.com/sbalsara05/PhotographyWebsiteSB",
-    },
-    {
-        name: "F1 Telemetry Graphs",
-        description:
-            "This program uses the FastF1 python library to plot the telemetry data for fastest laps in the race, qualifying or any of the practice sessions. This can go as far back as the 2018 F1 season.",
-        tags: [
-            {
-                name: "python",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "matplotlib",
-                color: "green-text-gradient",
-            },
-            {
-                name: "flask",
+                name: "Nasa API",
                 color: "pink-text-gradient",
             },
         ],
         image: telemetry,
-        source_code_link: "https://github.com/sbalsara05/PythonF1Project",
+        source_code_link: "https://github.com/sbalsara05/TrackISS",
     },
-    {
-        name: "Luke Adams Art Portfolio",
-        description:
-            "This freelance project showcases the artistic works of Luke Adams. Under his brand, Just a Local Adolescent, Luke aims to establish himself in the art world, bringing his passion for photography, designs, patterns, and portraits to life.",
-        tags: [
-            {
-                name: "css",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "javascript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "html",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: LAFrontPage,
-        source_code_link: "https://github.com/sbalsara05/LukeAdamsPortfolio",
-    },
+    // {
+    //     name: "Luke Adams Art Portfolio",
+    //     description:
+    //         "This freelance project showcases the artistic works of Luke Adams. Under his brand, Just a Local Adolescent, Luke aims to establish himself in the art world, bringing his passion for photography, designs, patterns, and portraits to life.",
+    //     tags: [
+    //         {
+    //             name: "css",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "javascript",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "html",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: LAFrontPage,
+    //     source_code_link: "https://github.com/sbalsara05/LukeAdamsPortfolio",
+    // },
 
 ];
 export {services, technologies, experiences, testimonials, projects};
