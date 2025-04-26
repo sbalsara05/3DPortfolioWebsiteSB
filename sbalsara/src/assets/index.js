@@ -39,6 +39,10 @@ import code from "./icons/code.svg";
 import mic_vocal from "./icons/mic_vocal.svg";
 import school from "./icons/school.svg";
 import graduation_cap from "./icons/graduation_cap.svg";
+import CommerceHive from "./icons/CommerceHiveLogo.jpg";
+import CommerceHiveLogo2 from "./icons/CommerceHiveLogo2.svg";
+import BurrowBunnyPicLogo from "./icons/BurrowBunnyPicLogo.png";
+import RealityAI from "./icons/RealityAIpng.jpeg";
 
 export {
   logo,
@@ -69,9 +73,18 @@ export {
   carrent,
   jobit,
   tripguide,
-    IClogo,
-    F1Logo,
-    f1logonew,
-    Photography,
-    telemetry, LAFrontPage, code, mic_vocal, school, graduation_cap
+  IClogo,
+  F1Logo,
+  f1logonew,
+  Photography,
+  telemetry,
+  LAFrontPage,
+  code,
+  mic_vocal,
+  school,
+  graduation_cap,
+  RealityAI,
+  CommerceHive,
+  BurrowBunnyPicLogo,
+  CommerceHiveLogo2,
 };

@@ -30,7 +30,7 @@ import {
     LAFrontPage,
     code,
     mic_vocal,
-    school, graduation_cap
+    school, graduation_cap, RealityAI, BurrowBunnyPicLogo, CommerceHive, CommerceHiveLogo2
 
 
 } from "../assets";
@@ -127,50 +127,58 @@ const technologies = [
 ];
 const experiences = [
     {
-        title: "Research Intern - Professor Douglas Turnbull",
-        company_name: "Ithaca College",
-        icon: IClogo,
+        title: "Director of Engineering",
+        company_name: "Commerce Hive LLC",
+        icon: CommerceHiveLogo2,
         iconBg: "#F8F8F8",
-        date: "Nov 2023 - Dec 2023",
+        date: "March 2025 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Implemented new features and functionalities to improve user experience.",
-            "Wrote over 500 words of documentation",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Spearheaded the development of 14 mission-critical front-end components for the company’s core platform.",
+            "Manage and mentor a team of 20 engineers across front-end and back-end disciplines, achieving 95% sprint velocity " +
+            "adherence and completing 100% monthly roadmap objectives for two consecutive months.",
+            "Defined and executed the department’s engineering strategy, implementing scalable development processes and" +
+            "aligning team priorities with business goals, resulting in a 25% increase in deployment efficiency."
         ],
     },
     {
-        title: "Research Intern - Professor John Barr",
-        company_name: "Ithaca College",
-        icon: IClogo,
+        title: "Software Engineering Intern",
+        company_name: "Reality AI Labs",
+        icon: RealityAI,
         iconBg: "#F8F8F8",
         date: "January 2024 - May 2024",
         points: [
-            "Collaborated with Professor John Barr to conduct a comprehensive analysis of current Computer Science teaching methods, identifying key areas for improvement and potential efficiencies, resulting in a 20% increase in student comprehension rates.",
-            "Conducted comprehensive research on a range of teaching methodologies, including but not limited to traditional lecture-based, experiential learning, and project-based approaches.",
-            "Maintain upkeep of computers, classroom equipment, and 200 printers across campus",
+            "Built core components using Next.js and PostgreSQL, integrating user-friendly interfaces and scalable" +
+            "backend services to support seamless AI-student interactions and real-time data retrieval.",
+            "Engineered interactive data visualizations and contributed to building machine learning models that drive" +
+            "Marvel AI's adaptive learning capabilities, supporting personalized educational experiences across varied " +
+            "classroom environments."
         ],
     },
     {
-        title: "Teacher's Assistant - ECON 120",
-        company_name: "Ithaca College",
-        icon: IClogo,
+        title: "Co-Founder and CTO",
+        company_name: "Burrow Housing",
+        icon: BurrowBunnyPicLogo,
         iconBg: "#F8F8F8",
-        date: "February 2024 - May 2024",
+        date: "August 2024 - Present",
         points: [
-            "Teacher’s Assistant for Professor Elia Kacapyr’s ECON 120 Course at Ithaca College.",
-            "Helped with Exam creation and preparation for students, resulting in a 20% increase in average exam scores.",
+           "Initiated and co-created Burrow Housing, driving all stages of strategy formulation and implementation aimed at" +
+           "transforming student housing accessibility within Northeastern University’s community to increase engagement by" +
+           "30%.",
+            "Developed 21 APIs for the Burrow Housing website using MongoDB and React, enabling seamless data integration" +
+            "and enhanced user functionality."
         ],
     },
     {
-        title: "Tutor - Students Helping Students",
+        title: "Software Developer",
         company_name: "Ithaca College",
         icon: IClogo,
         iconBg: "#F8F8F8",
-        date: "October 2023 - May 2024",
+        date: "November 2023 - April 2024",
         points: [
-            "Member of Students helping Students at Ithaca College.",
-            "Worked in total with over 40 students resulting in an average of 7% increase in scores from tutored students.",
+            "Collaborated with Professor Douglas Turnbull to analyze user testing data, identifying key trends and " +
+            "opportunities for optimization, which led to a 30% improvement in overall app performance.",
+            "Implemented new features and functionalities to enhance user experience, including improved song card " +
+            "formatting and an optimized song search mechanism for better accessibility and navigation."
         ],
     },
 ];
